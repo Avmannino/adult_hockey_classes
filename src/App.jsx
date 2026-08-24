@@ -37,7 +37,7 @@ const programHighlights = [
   },
   {
     number: "02",
-    title: "Professional Hockey Coaching",
+    title: "Coached by Professionals",
     copy:
       "Train with Wings Arena Professional Hockey Coaches through organized, on-ice instruction.",
   },
@@ -126,7 +126,9 @@ function App() {
             <div className="hero-actions">
               <a
                 className="hero-primary-button"
-                href="#registration"
+                href={REGISTRATION_URL}
+                target="_blank"
+                rel="noreferrer"
               >
                 Register Now
               </a>
@@ -143,7 +145,7 @@ function App() {
         <div className="section-container">
           <div className="section-heading intro-heading">
             <h2>
-              Hockey Is For Everyone!
+              It’s Never Too Late to Start!
             </h2>
 
             <p>
@@ -160,10 +162,6 @@ function App() {
                 className="highlight-card"
                 key={highlight.number}
               >
-                <div className="highlight-number">
-                  {highlight.number}
-                </div>
-
                 <div className="highlight-rule" />
 
                 <h3>{highlight.title}</h3>
@@ -237,13 +235,12 @@ function App() {
         className="registration-section"
         id="registration"
       >
-        <div className="registration-background-mark registration-background-mark-one">
-          W
-        </div>
-
-        <div className="registration-background-mark registration-background-mark-two">
-          W
-        </div>
+        <img
+          className="registration-watermark"
+          src={`${import.meta.env.BASE_URL}wings-alt-logo.png`}
+          alt=""
+          aria-hidden="true"
+        />
 
         <div className="section-container registration-container">
           <div className="section-heading registration-heading">
@@ -345,15 +342,13 @@ function App() {
           </div>
 
           <div className="questions-card">
-            <div>
-              <span className="questions-label">
-                QUESTIONS?
-              </span>
+            <span className="questions-label">
+              QUESTIONS?
+            </span>
 
-              <strong>
-                We’re happy to help.
-              </strong>
-            </div>
+            <strong>
+              Email our Program Director
+            </strong>
 
             <a href={`mailto:${CONTACT_EMAIL}`}>
               {CONTACT_EMAIL}
