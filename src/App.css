@@ -156,6 +156,7 @@
 .hero-actions {
   display: flex;
   align-items: center;
+  justify-content: center;
   flex-wrap: wrap;
   gap: 27px;
   margin-top: 34px;
