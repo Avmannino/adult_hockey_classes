@@ -118,12 +118,13 @@
 
 .hero h1 {
   max-width: 760px;
-  margin: 0;
+  margin: 0 auto;
   color: #ffffff;
   font-size: clamp(64px, 7vw, 104px);
   font-weight: 600;
   line-height: 1.05;
   letter-spacing: -0.035em;
+  text-align: center;
   text-transform: uppercase;
 }
 
@@ -144,11 +145,12 @@
 
 .hero-description {
   max-width: 590px;
-  margin: 13px 0 0;
+  margin: 13px auto 0;
   color: rgba(255, 255, 255, 0.76);
   font-size: 17px;
   font-weight: 500;
   line-height: 1.65;
+  text-align: center;
 }
 
 .hero-actions {
@@ -861,6 +863,15 @@
     padding-bottom: 72px;
   }
 
+  .hero-copy {
+    text-align: center;
+  }
+
+  .hero-carousel {
+    width: min(100%, 320px);
+    margin: 0 auto;
+  }
+
   .hero-eyebrow {
     margin-bottom: 20px;
     font-size: 10px;
@@ -886,6 +897,7 @@
   }
 
   .hero-actions {
+    justify-content: center;
     gap: 21px;
     margin-top: 28px;
   }
@@ -909,19 +921,32 @@
   }
 
   .intro-heading {
-    margin-bottom: 38px;
+    margin: 0 auto 38px;
+    text-align: center;
+  }
+
+  .intro-summary {
+    text-align: center;
   }
 
   .highlight-card {
     padding: 29px 24px 32px;
+    text-align: center;
   }
 
   .highlight-rule {
-    margin: 16px 0 25px;
+    margin: 16px auto 25px;
   }
 
   .highlight-card h3 {
+    max-width: 100%;
     font-size: 20px;
+  }
+
+  .highlight-card p {
+    max-width: 100%;
+    margin-right: auto;
+    margin-left: auto;
   }
 
   .schedule-section {
@@ -1012,10 +1037,10 @@
   }
 
   .questions-card {
-    align-items: flex-start;
     gap: 4px;
     margin-top: 57px;
     padding: 21px 4px;
+    text-align: center;
   }
 
   .questions-card a {
