@@ -16,16 +16,21 @@ const CONTACT_EMAIL = "jwanderlingh@wingsarena.com";
 const QR_CODE_SRC = `${import.meta.env.BASE_URL}registration_qr.png`;
 
 const scheduleDates = [
-  "Sept. 8, 2026",
-  "Sept. 15, 2026",
-  "Sept. 22, 2026",
-  "Sept. 29, 2026",
-  "Oct. 6, 2026",
-  "Oct. 13, 2026",
-  "Oct. 20, 2026",
-  "Oct. 27, 2026",
-  "Nov. 3, 2026",
-  "Nov. 10, 2026",
+  "Nov. 17, 2026",
+  "Nov. 24, 2026",
+  "Dec. 1, 2026",
+  "Dec. 8, 2026",
+  "Dec. 15, 2026",
+  "Dec. 22, 2026",
+  "Dec. 29, 2026",
+  "Jan. 5, 2027",
+  "Jan. 12, 2027",
+  "Jan. 19, 2027",
+  "Jan. 26, 2027",
+  "Feb. 2, 2027",
+  "Feb. 9, 2027",
+  "Feb. 16, 2027",
+  "Feb. 23, 2027",
 ];
 
 const programHighlights = [
@@ -251,7 +256,7 @@ function App() {
             <h2>Registration</h2>
 
             <p>
-              Choose the full 10-class session or just drop-in for a single class (if space permits).
+              Choose the full 15-class session or just drop-in for a single class (if space permits).
             </p>
           </div>
 
@@ -267,7 +272,7 @@ function App() {
               </div>
 
               <div className="price-description">
-                10 Classes
+                15 Classes
               </div>
 
             </article>
@@ -279,7 +284,7 @@ function App() {
 
               <div className="price">
                 <span className="currency">$</span>
-                50
+                40
               </div>
 
               <div className="price-description">
