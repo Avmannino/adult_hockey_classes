@@ -18,11 +18,6 @@ const QR_CODE_SRC = `${import.meta.env.BASE_URL}registration_qr.png`;
 const scheduleDates = [
   "Nov. 17, 2026",
   "Nov. 24, 2026",
-  "Dec. 1, 2026",
-  "Dec. 8, 2026",
-  "Dec. 15, 2026",
-  "Dec. 22, 2026",
-  "Dec. 29, 2026",
   "Jan. 5, 2027",
   "Jan. 12, 2027",
   "Jan. 19, 2027",
