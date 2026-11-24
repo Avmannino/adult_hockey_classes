@@ -251,7 +251,7 @@ function App() {
             <h2>Registration</h2>
 
             <p>
-              Choose the full 15-class session or just drop-in for a single class (if space permits).
+              Choose the full 10-class session or just drop-in for a single class (if space permits).
             </p>
           </div>
 
@@ -267,7 +267,7 @@ function App() {
               </div>
 
               <div className="price-description">
-                15 Classes
+                10 Classes
               </div>
 
             </article>
